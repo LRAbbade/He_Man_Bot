@@ -1,4 +1,4 @@
-import token
+from token import get_token
 import discord
 from discord.ext import commands
 
@@ -22,4 +22,4 @@ async def info(ctx):
     embed.add_field(name="Source code", value="[He_Man_Bot](http://www.github.com/LRAbbade/He_Man_Bot)")
     await ctx.send(embed=embed)
 
-bot.run(token.token)
+bot.run(get_token())
