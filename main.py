@@ -1,4 +1,4 @@
-from token import get_token
+from api_token import get_token
 import discord
 from discord.ext import commands
 
