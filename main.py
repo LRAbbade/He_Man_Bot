@@ -1,7 +1,8 @@
+import token
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix='!', description='I play he man forever')
+bot = commands.Bot(command_prefix='$', description='I play he man forever')
 
 @bot.event
 async def on_ready():
@@ -20,3 +21,5 @@ async def info(ctx):
     embed.add_field(name="Author", value="[LRAbbade](http://www.github.com/LRAbbade)")
     embed.add_field(name="Source code", value="[He_Man_Bot](http://www.github.com/LRAbbade/He_Man_Bot)")
     await ctx.send(embed=embed)
+
+bot.run(token.token)
