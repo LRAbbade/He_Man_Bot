@@ -58,7 +58,7 @@ class VoiceState:
             self.current.player.start()
             await self.play_next_song.wait()
 
-class Music:
+class Music(commands.Cog):
     """Voice related commands.
     Works in multiple servers at once.
     """
