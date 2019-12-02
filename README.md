@@ -10,7 +10,7 @@ That's it.
 git clone <this>
 cd He_Man_Bot
 mkdir config        # set your configs here, basic is:
-nano __init__.py
+nano config/__init__.py
 TOKEN = <your_discord_bot_token>
 # ctrl+O, ctrl+X
 pip install -r requirements.txt
