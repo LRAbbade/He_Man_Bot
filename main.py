@@ -1,4 +1,4 @@
-from api_token import get_token
+from config import TOKEN
 import discord
 from discord.ext import commands
 import asyncio
@@ -148,4 +148,4 @@ async def info():
     embed.add_field(name="Source code", value="[He_Man_Bot](http://www.github.com/LRAbbade/He_Man_Bot)")
     await bot.say(embed=embed)
 
-bot.run(get_token())
+bot.run(TOKEN)
