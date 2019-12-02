@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 config/
 *.icloud
 .vscode/
+=======
+api_token.py
+>>>>>>> 0c0020782fc506e700d04cbe42fb4d3ded663715
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

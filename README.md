@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # He Man Bot
 
 A bot that permanently plays [hey yeah yeah](https://www.youtube.com/watch?v=ZZ5LpwO-An4) by He-Man on Discord
@@ -27,3 +28,9 @@ pip install -r requirements.txt
 
 Python - 3.8
 dblpy - 0.3.3
+=======
+# He_Man_Bot
+A bot that permanently plays [hey yeah yeah](https://www.youtube.com/watch?v=ZZ5LpwO-An4) by He-Man on Discord
+
+That's it.
+>>>>>>> 0c0020782fc506e700d04cbe42fb4d3ded663715
